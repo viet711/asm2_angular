@@ -2,10 +2,10 @@
   "product": [
     {
       "id": 2,
-      "name": "abcdsy",
-      "price": "7000",
+      "name": "abcdsysdsa",
+      "price": 7000123,
       "image": "https://sachngoaingugiare.com/wp-content/uploads/2021/09/harry-potter-and-the-prisoner-of-azkaban-768x768.jpeg.webp",
-      "description": "Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Vitae exercitationem porro saepe ea harum corrupti vero id laudantium enim, libero blanditiis expedita cupiditate a est."
+      "description": "Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Vitae exercitationem porro saepe ea harum corrupti vero id laudantium enim, libero blanditiis expedita cupiditate a est.dsadasdas"
     },
     {
       "id": 3,
@@ -50,6 +50,20 @@
           "comment": "d,ákdgasgda"
         }
       ]
+    },
+    {
+      "id": 8,
+      "name": "Không Diệt Không Sinh Đừng Sợ Hãi (TB5)",
+      "price": 64.6,
+      "description": "Mô Tả Sản Phẩm\nNhiều người trong chúng ta tin rằng cuộc đời của ta bắt đầu từ lúc chào đời và kết thúc khi ta chết. Chúng ta tin rằng chúng ta tới từ cái Không, nên khi chết chúng ta cũng không còn lại gì hết. Và chúng ta lo lắng vì sẽ trở thành hư vô",
+      "image": "https://salt.tikicdn.com/cache/w1200/ts/product/a0/bf/43/267e59580ba829ef33eb1999199dafd5.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Thao Túng Tâm Lý",
+      "price": 109.4,
+      "description": "Trong cuốn “Thao túng tâm lý”, tác giả Shannon Thomas giới thiệu đến độc giả những hiểu biết liên quan đến thao túng tâm lý ",
+      "image": "https://salt.tikicdn.com/cache/750x750/ts/product/90/49/97/ec88ab408c1997378344486c94dbac40.jpg.webp"
     }
   ],
   "user": [
@@ -87,6 +101,20 @@
       "confirmPassword": "123456789",
       "name": "viet",
       "id": 5
+    },
+    {
+      "email": "abc@gmail.com",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "name": "abcd",
+      "id": 6
+    },
+    {
+      "email": "afg@gmail.com",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "name": "viet",
+      "id": 7
     }
   ],
   "comment": [
