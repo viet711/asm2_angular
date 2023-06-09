@@ -1,0 +1,190 @@
+ <button
+  data-drawer-target="sidebar-multi-level-sidebar"
+  data-drawer-toggle="sidebar-multi-level-sidebar"
+  aria-controls="sidebar-multi-level-sidebar"
+  type="button"
+  class="inline-flex items-center p-2 mt-2 ml-3 text-xs text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+>
+  <span class="sr-only">Open sidebar</span>
+  <svg
+    class="w-6 h-6"
+    aria-hidden="true"
+    fill="currentColor"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      clip-rule="evenodd"
+      fill-rule="evenodd"
+      d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"
+    ></path>
+  </svg>
+</button>
+<div>
+  <aside
+    id="sidebar-multi-level-sidebar"
+    class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0 min-h-screen"
+    aria-label="Sidebar"
+  >
+    <div class="h-full px-3 py-4 overflow-y-auto shadow-2xl dark:bg-gray-800">
+      <ul class="space-y-2 font-semibold">
+        <li class="flex justify-center">
+          <img src="./assets/logo_xbook.png" alt="" />
+        </li>
+        <li>
+          <a
+            routerLink="/admin/dashboard"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+            class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
+          >
+            <svg
+              aria-hidden="true"
+              class="w-6 h-6 text-gray-500 text-base transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z"></path>
+              <path d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z"></path>
+            </svg>
+            <span class="ml-3 text-sm font-semibold">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <button
+            type="button"
+            class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+            aria-controls="dropdown-example"
+            data-collapse-toggle="dropdown-example"
+          >
+            <svg
+              aria-hidden="true"
+              class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10 2a4 4 0 00-4 4v1H5a1 1 0 00-.994.89l-1 9A1 1 0 004 18h12a1 1 0 00.994-1.11l-1-9A1 1 0 0015 7h-1V6a4 4 0 00-4-4zm2 5V6a2 2 0 10-4 0v1h4zm-6 3a1 1 0 112 0 1 1 0 01-2 0zm7-1a1 1 0 100 2 1 1 0 000-2z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+            <span
+              class="flex-1 ml-3 text-left whitespace-nowrap text-sm font-semibold"
+              sidebar-toggle-item
+              >E-commerce</span
+            >
+            <svg
+              sidebar-toggle-item
+              class="w-6 h-6"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+          <ul id="dropdown-example" class="hidden py-2 space-y-2">
+            <li>
+              <a
+                routerLink="/admin/products"
+                routerLinkActive="active"
+                [routerLinkActiveOptions]="{ exact: true }"
+                class="flex text-sm font-semibold items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                >Products</a
+              >
+            </li>
+
+
+
+          </ul>
+        </li>
+
+        <li>
+          <a
+            class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
+          >
+            <svg
+              aria-hidden="true"
+              class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3 3a1 1 0 00-1 1v12a1 1 0 102 0V4a1 1 0 00-1-1zm10.293 9.293a1 1 0 001.414 1.414l3-3a1 1 0 000-1.414l-3-3a1 1 0 10-1.414 1.414L14.586 9H7a1 1 0 100 2h7.586l-1.293 1.293z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+            <span class="flex-1 ml-3 whitespace-nowrap text-sm font-semibold"
+              >Logout</span
+            >
+          </a>
+        </li>
+      </ul>
+    </div>
+  </aside>
+  <div class="p-4 sm:ml-64">
+    <main
+      class="main -ml-48 flex flex-grow flex-col p-4 transition-all duration-150 ease-in md:ml-0"
+    >
+      <div
+        class="flex h-full items-center justify-center bg-white text-center text-5xl font-bold shadow-md"
+      >
+        <router-outlet></router-outlet>
+      </div>
+    </main>
+  </div>
+</div>
+
+ <!-- <header class="bg-[#1A94FF] text-white">
+  <div class="flex max-w-screen-xl mx-auto py-4 items-start">
+    <a routerLink="/"><img src="/assets/logo.png" /></a>
+    <div class="flex ml-auto">
+      <form [formGroup]="searchForm" (ngSubmit)="search()" class="flex h-10 rounded overflow-hidden mr-4">
+        <input formControlName="searchQuery" class="w-[626px] text-black-primary focus:outline-none outline-none py-1 px-2" />
+        <button class="bg-primary px-4 py-1 flex items-center" type="submit">
+          <img src="/assets/icons/search.png" class="mr-2" />Tìm kiếm
+        </button>
+      </form>
+      <div class="flex items-center mr-6">
+        <img src="/assets/icons/account.png" class="mr-2" />
+        <ng-container *ngIf="isLogin; else loginLink">
+          <div class="relative group">
+            <p class="block text-xs" href="#">{{ isLogin.id }}</p>
+            <p class="flex text-sm cursor-pointer" href="#">Tài khoản<img src="https://th.bing.com/th/id/R.5f0aae87b6f7f6fa344687325954efb9?rik=e3JjXQ40hXHr9A&riu=http%3a%2f%2fimages.clipartpanda.com%2fuser-clipart-matt-icons_preferences-desktop-personal.png&ehk=zpI4UP3ENBf%2bVPij5nyWcy4%2fwhHosmLfk5qsx0Bx2vE%3d&risl=&pid=ImgRaw&r=0" /></p>
+            <ul class="absolute top-[100%] text-black-primary -right-12 bg-white w-[200px] rounded shadow-lg py-2 duration-150 translate-y-10 invisible opacity-0 group-hover:translate-y-0 group-hover:visible group-hover:opacity-100">
+              <li class="hover:bg-gray-100" *ngIf="isLogin.role === 'admin'">
+                <a class="px-4 py-2 block" routerLink="/admin">Dashboard</a>
+              </li>
+              <li class="hover:bg-gray-100">
+                <a data-button="logout" class="px-4 py-2 block cursor-pointer" (click)="logout()">Đăng xuất</a>
+              </li>
+            </ul>
+          </div>
+        </ng-container>
+        <ng-template #loginLink>
+          <a href="/login" class="block">
+            <p class="block text-xs" href="#">Đăng Nhập / Đăng Ký</p>
+            <p class="flex text-sm" href="#">Tài khoản<img src="/assets/icons/arrow-down.png" /></p>
+          </a>
+        </ng-template>
+      </div>
+      <div class="flex items-center">
+        <div class="relative">
+          <img src="/assets/icons/cart.png" class="mr-2" />
+          <span class="absolute top-0 right-0 rounded-full bg-[#FDD835] px-[6px] aspect-square text-black-primary text-xs">{{ cartItemCount }}</span>
+        </div>
+        <p class="mt-auto">Giỏ hàng</p>
+      </div>
+    </div>
+  </div>
+</header> -->
+

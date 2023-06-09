@@ -1,0 +1,99 @@
+{
+  "product": [
+    {
+      "id": 2,
+      "name": "abcdsy",
+      "price": "7000",
+      "image": "https://sachngoaingugiare.com/wp-content/uploads/2021/09/harry-potter-and-the-prisoner-of-azkaban-768x768.jpeg.webp",
+      "description": "Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Vitae exercitationem porro saepe ea harum corrupti vero id laudantium enim, libero blanditiis expedita cupiditate a est."
+    },
+    {
+      "id": 3,
+      "name": "Harry Potter Và Chiếc Cốc Lửa - Tập 4",
+      "price": "7000",
+      "image": "https://sachngoaingugiare.com/wp-content/uploads/2021/09/Harry-Potter-and-the-Goblet-of-Fire-768x768.jpeg.webp",
+      "description": "sách đẹp "
+    },
+    {
+      "id": 4,
+      "name": "Harry Potter Và Chiếc Cốc Lửa - Tập 4",
+      "price": 12312,
+      "image": "https://newshop.vn/public/uploads/products/49451/sach-harry-potter-va-chiec-coc-lua-tap-4.jpg",
+      "description": "Harry Potter Và Chiếc Cốc Lửa - Tập 4 - Bốn năm của Harry cũng như của chúng tôi ở trường Hogwarts thật vui nhộn, một thế giới đầy hài hước cùng nhiều hoạt động thú vị.",
+      "comment": []
+    },
+    {
+      "id": 5,
+      "name": "HARRY POTTER VÀ HỘI PHƯỢNG HOÀNG - TẬP 5",
+      "price": 12312,
+      "image": "https://newshop.vn/public/uploads/products/5716/harry-potter-va-hoi-phuong-hoang.jpg",
+      "description": "Harry tức giận vì bị bỏ rơi ở nhà Dursley trong dịp hè, cậu ngờ rằng Chúa tể hắc ám Voldemort đang tập hợp lực lượng, và vì cậu có nguy cơ bị tấn công, những người Harry luôn coi là bạn đang cố che giấu tung tích cậu. Cuối cùng, sau khi được giải cứu, Harry khám phá ra rằng giáo sư Dumbledore đang tập hợp lại Hội Phượng Hoàng",
+      "comment": []
+    },
+    {
+      "id": 6,
+      "name": "HARRY POTTER VÀ HOÀNG TỬ LAI - TẬP 6",
+      "price": 0,
+      "image": "https://newshop.vn/public/uploads/products/6431/harry-potter-va-hoang-tu-lai-tai-ban-24.jpg",
+      "description": "Harry tức giận vì bị bỏ rơi ở nhà Dursley trong dịp hè, cậu ngờ rằng Chúa tể hắc ám Voldemort đang tập hợp lực lượng, và vì cậu có nguy cơ bị tấn công, những người Harry luôn coi là bạn đang cố che giấu tung tích cậu. Cuối cùng, sau khi được giải cứu, Harry khám phá ra rằng giáo sư Dumbledore đang tập hợp lại Hội Phượng Hoàng",
+      "comment": []
+    },
+    {
+      "id": 7,
+      "name": "HARRY POTTER VÀ HOÀNG TỬ LAI - TẬP 6",
+      "price": 0,
+      "image": "https://newshop.vn/public/uploads/products/6431/harry-potter-va-hoang-tu-lai-tai-ban-24.jpg",
+      "description": "Harry tức giận vì bị bỏ rơi ở nhà Dursley trong dịp hè, cậu ngờ rằng Chúa tể hắc ám Voldemort đang tập hợp lực lượng, và vì cậu có nguy cơ bị tấn công, những người Harry luôn coi là bạn đang cố che giấu tung tích cậu. Cuối cùng, sau khi được giải cứu, Harry khám phá ra rằng giáo sư Dumbledore đang tập hợp lại Hội Phượng Hoàng",
+      "comment": [
+        {
+          "productId": 1,
+          "comment": "d,ákdgasgda"
+        }
+      ]
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "email": "viet@gmail.com",
+      "password": "123456",
+      "role": "admin"
+    },
+    {
+      "email": "viet20000333@gmail.com",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "name": "abcd",
+      "image_url": "https://scontent.fhan3-5.fna.fbcdn.net/v/t39.30808-6/325451376_712982000435245_1446350167577898312_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=M4jcyS8FMT8AX_hn7UD&_nc_ht=scontent.fhan3-5.fna&oh=00_AfBUDMaTCM1UU_u5ZCCOHMjMdOVJaADYmepZujkdoLFwFA&oe=646E7366",
+      "id": 2
+    },
+    {
+      "email": "nd1@gmail.com",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "name": "abcd",
+      "id": 3
+    },
+    {
+      "email": "abcd@gmail.com",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "name": "adasdasdas",
+      "id": 4
+    },
+    {
+      "email": "CarlosGriffin837@hihicute.com",
+      "password": "123456789",
+      "confirmPassword": "123456789",
+      "name": "viet",
+      "id": 5
+    }
+  ],
+  "comment": [
+    {
+      "commentId": 1,
+      "email": "viet@gmail.com",
+      "textcomment": "sach harry"
+    }
+  ]
+}
